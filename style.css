@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Francois One", sans-serif;
+    height: 2000px;
+}
+
+.head{
+    height: 170px;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 100;
+}  
+
+.main-header{
+    height: 60px;
+    border: 0.5px solid rgb(240, 229, 229);
+}
+    
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-title{
+    font-size: 17px;
+    font-weight: 500;
+    color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.location-logo{
+    height: 18px;
+    width: 13px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+.location-btn{
+    margin-left: 23px;
+    background-color: #202124;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.location-btn:active{
+    opacity: 0.8;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+.first-section{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.middle-section{
+    flex: 1;
+}
+.last-section{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kfc-logo{
+    padding-left: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.menu{
+    padding-left: 35px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bucket-cart{
+    width: 55px;
+    cursor: pointer;
+
+}
+.login-pic{
+    padding-left: 8px;
+    cursor: pointer;
+}
+.login-sign{
+    padding: 15px;
+    font-weight: bold;
+    margin-right: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav-slash{
+    margin-left: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.nav-rupees{
+    cursor: pointer;
+    margin-left: 3p;
+    font-size: 16px;
+}
+.header-bottom{
+    width: 100%;
+    height: 10px;
+    background-color: #202124;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 210px;
+    padding-bottom: 40px;
+}
+.hdr-bottom-content{
+    color: white;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 700;
+
+
+
+}
+.hdr-bottom-btn{
+    color: white;
+    border: none ;
+    background-color: #e4002b;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 12px;
+
+}
+.hdr-bottom-btn:hover{
+    opacity: 0.9;
+}
+.hdr-bottom-btn:active{
+    opacity: 0.5;
+}
+
+
+.poster-image{
+    width: 100%;
+}
+.left-section{
+    width: 40%;
+    display: flex;
+}
+.third-section{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 198px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.browse-category{
+    font-size: 42px;
+    padding-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    color: #202124;
+    font-weight: 500;
+    font-style: normal;
+
+
+}
+.line{
+    width: 840px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.food-items{
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    margin-top: 45px;
+    margin-left: 170px;
+    height: 330px;
+    justify-content: center;
+    line-height: 45px;
+    text-align: center;
+    column-gap: 28px;
+    cursor: pointer;
+
+}
+/*.item-1{
+    background-color: pink;
+
+
+}
+.item-2{
+    background-color: cyan;
+}
+.item-3{
+    background-color: pink;
+}
+.item-4{
+    background-color: cyan;
+}*/
+.menu-item{
+    background-color: #f8f7f5;
+}
+.images{
+    width: 290px;
+    border-radius: 7px;
+}
+.item-link{
+    text-decoration: none;
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-image{
+    width: 275px;
+    height: 300px;
+    padding-top: 0px ;
+    margin-top: -25px;
+}
+.menu-link{
+    float: left;
+    padding-left: 90px;
+    margin-top: -70px;
+    text-decoration: none;
+    color: #202124;
+    font-size: 16px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.exclusive-section{
+    width: 100%;
+    height: 900px;
+    margin-top: 110px;
+    background-color: #202124;
+}
+.design-head{
+     display: flex;
+    gap: 1%;
+    padding-left: 250px;
+    
+}
+.vertical-design-1{
+    height: 50px;
+    width: 20px;
+    background-color:rgb(228, 0, 43);
+}
+.vertical-design-2{
+    height: 50px;
+    width: 20px;
+    background-color: rgb(228, 0, 43);
+}
+.vertical-design-3{
+    height: 50px;
+    width: 20px;
+    background-color: rgb(228, 0, 43);
+}
+.exclusive-section{
+    width: 100%;
+}
+
+
+.exclusive-head{
+    height: 150px;
+    
+    display: flex;
+    gap: 50%;
+    flex-direction: row;
+    margin-left: 250px;
+
+
+}
+.exclusive-offer{
+    color: white;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.exclusive-arrow{
+    margin-top: 100px;
+}
+.arrow-description {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.scroll-btn-1{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 50%;
+    margin-left: 135px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.scroll-arrow{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.scroll-btn-2:hover,
+.scroll-btn-1:hover{
+    opacity: 0.5;
+}
+
+.exclusive-menu{
+    display: grid;
+    grid-template-columns: 380px 380px 380px 1fr;
+    height: 500px;
+    width: 100px;
+    margin-left: 250px;
+    margin-top: 50px;
+    column-gap: 50px;
+    text-align: center;
+    position:relative;
+}
+
+.exclusive-images{
+    background-color: white;
+    border: solid white;
+    border-width: 0ch;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ex-img1{
+    
+    width: 100%px;
+    height:300px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom:  0px;
+    
+
+}
+.ex-title{
+    font-size: 38px;
+    margin-top:  0px;
+    margin-bottom: 0px;
+    color: #e4002b;
+}
+.ex-description{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4d4e51;
+    font-weight: bold;
+    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ex-link-btn{
+    display: flex;
+    margin-left: 35px;
+    
+}
+.ex-link{
+    color: #4d4e51;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.ex-link:hover{
+    opacity: 0.7;
+    
+}
+.ex-link:active{
+    opacity: 0.3;
+}
+.ex-btn{
+    background-color: white;
+    color: #202124;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 45px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border:1px  #202124 solid;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.ex-btn:hover{
+    background-color: #202124;
+    color: white;
+}
+.ex-btn:active{
+    opacity: 0.6;
+}
+.scroll-btn-2{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 250px;
+    cursor: pointer;
+}
+.ex-vertical-line{
+    margin-top: 140px;
+    width: 1250px;
+    opacity: 0.5;
+    margin-left: 235px;
+
+}
+.footer-section{
+    
+    height: 625px;
+    background-color: #202124;
+    width: 100%;
+    
+}
+.rows{
+    display: grid;
+    grid-template-columns: 165px 165px 165px 165px 1fr ;
+    height: 220px;
+    margin-left: 325px;
+    padding-top: 250px;
+    column-gap: 15px;
+    position: relative;
+}
+.row{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-logo{
+    margin-top: 260px;
+    margin-left: 150px;
+    position: absolute;
+    width: 75px;
+}
+.footer-location{
+    /* background-color: red; */
+    padding-left: 50px;
+    cursor: pointer;
+    position: relative;
+}
+.footer-lctn-logo{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+.kfc-location{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    position: absolute;
+    top: 4%;
+}
+.google-play{
+    margin-left: 180px;
+    margin-top: 10px;
+
+}
+.apple-store{
+    margin-left: 30px;
+}
+.copyright-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+}
+.text-1{
+    color: #a5a6a8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.social-media{
+    margin-left: 135px;
+    position: absolute;
+    right: 12%;
+    cursor: pointer;
+}
+.media-icons{
+    margin-left: 5px;
+}
